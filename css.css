@@ -41,13 +41,13 @@ ul#menu li{
 }
 
 
-
 ul#menu a.link{
     font-family: CircularSpotifyTxT-Black;;
     font-size: 13pt;
     text-decoration: none;
     margin-top: 8px;
     margin-right: 10px;
+    color: inherit;
 }
 
 
@@ -62,13 +62,13 @@ section#corpo{
     background-color: #2941AB;
     width: auto;
     height: 700px;
+    text-align: center;
 }
 
 section#corpo h1{
     color: #1ed760;
     font-size: 120px;
     font-family: CircularSpotifyTxT-Black;
-    text-align: center;
     width: 1000px;
     display: block;
     margin-right: auto;
@@ -82,14 +82,12 @@ section#corpo h4{
     color: #1ed760 ;
     font-size: 18px;
     font-family: CircularSpotifyTxT-Black;
-    text-align: center;
     margin-top: 10px;
 }
 
 section#corpo input#obtenha{
     background-color: #1ed760;
     color: #2941AB;
-    text-align: center;
     font-size: 14px;
     padding: 14px 32px;
     letter-spacing: 1.4px;
@@ -97,7 +95,8 @@ section#corpo input#obtenha{
     border: none;
     font-family: CircularSpotifyTxT-Black;
     line-height: 16px;
-    margin-left: 590px;
+    text-align: center;
+    margin-left: -20px;
 }
 
 section#corpo input#obtenha:hover{
@@ -140,13 +139,17 @@ section#corpo input#obtenha:hover{
 	cursor: pointer;
 }
 
+#footer .content .menu .menu-item .menu-item-link{
+    text-decoration: none;
+    color: inherit;
+}
+
 #footer .content .menu p {
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #919496;
 	font-size: 0.65rem;
 }
-
 
 .rede-social {
 	display: flex;
@@ -191,11 +194,11 @@ section#corpo input#obtenha:hover{
 	cursor: pointer;
 }
 
-.info .direita .pais p {
+.info .right .pais p {
 	transition: all 300ms ease;
 }
 
-#info .direita .pais p:hover {
+#info .right .pais p:hover {
 	color: #1db954;
 	cursor: pointer;
 }
